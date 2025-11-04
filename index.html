@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seccional [Nombre] – [Región]</title>
+  <meta name="description" content="Sitio oficial de la Seccional [Nombre] – [Región]. Noticias, afiliaciones, trámites y contacto." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio">Seccional <strong>[Nombre]</strong></a>
+      <button class="menu-toggle" aria-controls="nav" aria-expanded="false">☰</button>
+      <nav id="nav" class="site-nav" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#autoridades">Autoridades</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#afiliate">Afiliate</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#tramites">Trámites</a>
+        <a href="#convenios">Convenios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container">
+        <h1>Seccional [Nombre] – [Región]</h1>
+        <p>Representamos a las y los trabajadores de [actividad/sector]. Defendemos tus derechos, mejoramos tus condiciones laborales y estamos cerca tuyo todos los días.</p>
+        <p>
+          <a class="btn" href="#afiliate">Afiliate ahora</a>
+          <a class="btn-outline" href="#noticias">Ver noticias</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="autoridades" class="section">
+      <div class="container">
+        <h2>Autoridades</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Secretario/a General</h3>
+            <p>[Nombre y Apellido]</p>
+          </article>
+          <article class="card">
+            <h3>Secretario/a Adjunto/a</h3>
+            <p>[Nombre y Apellido]</p>
+          </article>
+          <article class="card">
+            <h3>Tesorería</h3>
+            <p>[Nombre y Apellido]</p>
+          </article>
+          <!-- Agregá más cargos según tu estatuto -->
+        </div>
+      </div>
+    </section>
+
+    <section id="noticias" class="section">
+      <div class="container">
+        <h2>Noticias</h2>
+        <div id="news-list" class="news-list">
+          <!-- Para cada noticia, duplicá el bloque de abajo -->
+          <article class="news-item">
+            <h3>[Título de la noticia]</h3>
+            <p class="news-meta">[dd/mm/aaaa] – [Lugar]</p>
+            <p>[Bajada corta de 1–2 líneas.]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="afiliate" class="section">
+      <div class="container">
+        <h2>Afiliate</h2>
+        <p>Completá el formulario y nos pondremos en contacto.</p>
+        <p><a class="btn" href="[URL-de-tu-Google-Form]" target="_blank" rel="noopener">Abrir formulario</a></p>
+        <!-- Si preferís incrustar el iframe del Form, pegalo debajo -->
+        <!-- <iframe src="[URL-iframe]" width="100%" height="700" loading="lazy"></iframe> -->
+      </div>
+    </section>
+
+    <section id="beneficios" class="section">
+      <div class="container">
+        <h2>Beneficios</h2>
+        <ul class="list">
+          <li>Asesoramiento legal laboral para afiliados/as.</li>
+          <li>Capacitaciones y convenios educativos.</li>
+          <li>Turismo social y descuentos en comercios.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tramites" class="section">
+      <div class="container">
+        <h2>Trámites</h2>
+        <ol>
+          <li>Constancia de afiliación: solicitá por el formulario de Contacto.</li>
+          <li>Bolsones/beneficios: presentá DNI, último recibo y constancia.</li>
+          <li>Turnos de asesoría: coordiná por WhatsApp.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="convenios" class="section">
+      <div class="container">
+        <h2>Convenios y normativa</h2>
+        <ul class="list" id="docs-list">
+          <li><a href="docs/convenio-colectivo.pdf" target="_blank" rel="noopener">Convenio Colectivo (PDF)</a></li>
+          <li><a href="docs/estatuto-seccional.pdf" target="_blank" rel="noopener">Estatuto Seccional (PDF)</a></li>
+        </ul>
+        <p class="note">Subí tus PDF a una carpeta <code>/docs</code> junto a estos archivos o enlazalos desde Drive.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="container grid2">
+        <div>
+          <h2>Contacto</h2>
+          <p><strong>Dirección:</strong> [Calle y número, Ciudad, Provincia]</p>
+          <p><strong>Teléfono:</strong> [XX XXXX-XXXX] · <strong>Email:</strong> [contacto@tuseccional.org.ar]</p>
+          <p><strong>Horario de atención:</strong> [Lunes a viernes, 9 a 17]</p>
+          <p>
+            <a class="btn" href="https://wa.me/54XXXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
+          </p>
+        </div>
+        <div>
+          <!-- Mapa embebido (reemplazá src por el de Google Maps > Compartir > Insertar un mapa) -->
+          <iframe title="Mapa" src="[URL-iframe-de-Google-Maps]" width="100%" height="320" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Seccional [Nombre]. Todos los derechos reservados.</p>
+      <p>
+        <a href="#">Facebook</a> · <a href="#">Instagram</a> · <a href="#">X</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
